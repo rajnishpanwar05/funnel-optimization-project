@@ -1,0 +1,9 @@
+{
+  "roc_auc": 0.9126061502664926,
+  "avg_precision": 0.33696871817689356,
+  "brier_score": 0.1263022177042958,
+  "ks_statistic": 0.7202673999524579,
+  "artifacts": {
+    "topk_metrics_csv": "/Users/rajnishpanwar/Desktop/funnel_optimization_project/results/metrics/topk_metrics.csv"
+  }
+}

@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (keep structure, ignore large data)
+data/raw/*.csv
+data/raw/*.parquet
+# Exclude processed data files (too large for GitHub)
+data/extracts/*.parquet
+data/extracts/*.csv
+
+# Model artifacts (exclude large model files)
+results/models/*.cbm
+results/models/*.json
+results/models/*.pkl
+results/models/*.joblib
+results/models/*.h5
+results/models/*.pt
+# Exclude large prediction files
+results/predictions/*.csv
+results/predictions/*.parquet
+
+# PowerBI
+powerbi/*.pbix
+powerbi/exports/*.png
+powerbi/exports/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+# But allow .env.example template
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Setup and temporary files (not for repository)
+PROJECT_REVIEW.md
+GITHUB_SETUP.md
+QUICK_START_GITHUB.md
+GITHUB_DESCRIPTION.txt
+GITHUB_INFO.md
+REPOSITORY_SUMMARY.md
+setup_github.sh
+*.sh
+
+# Project-specific (keep review docs, exclude Power BI)
+*.pbix
